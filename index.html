@@ -2,14 +2,22 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Implementación de patrones Interpreter y State</title>
   <style>
+    *, *::before, *::after { box-sizing: border-box; }
     body {
       font-family: Arial;
       text-align: center;
       background: #0f172a;
       color: white;
-      padding-top: 100px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      box-sizing: border-box;
     }
     h1 {
       margin-bottom: 40px;
@@ -19,34 +27,53 @@
       margin: 15px auto;
       padding: 15px;
       width: 250px;
+      max-width: 100%;
       text-decoration: none;
       color: white;
       background: #2563eb;
       border-radius: 10px;
       font-size: 18px;
+      box-sizing: border-box;
+      word-break: break-word;
     }
     a:hover {
       background: #1d4ed8;
     }
+    /* Responsive adjustments */
+    .container {
+      max-width: 900px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+    @media (max-width: 480px) {
+      h1 { font-size: 1.25rem; margin-bottom: 20px; }
+      a {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+      }
+    }
   </style>
 </head>
 <body>
+  <div class="container">
+    <h1>Implementación de patrones Interpreter y State</h1>
 
-  <h1>Implementación de patrones Interpreter y State</h1>
+    <a href="https://github.com/P3P0ZeroDawn/DesignPatternsPresentation" target="_blank">
+      📂 Ver repositorio
+    </a>
 
-  <a href="https://github.com/P3P0ZeroDawn/DesignPatternsPresentation" target="_blank">
-    📂 Ver repositorio
-  </a>
+    <h1>Implementación Interpreter</h1>
 
-  <h1>Implementación Interpreter</h1>
+    <a href="https://github.com/P3P0ZeroDawn/DesignPatternsPresentation/blob/master/EjemploInterpreter.rb" target="_blank">
+      📂 Ver código en Ruby
+    </a>
 
-  <a href="https://github.com/P3P0ZeroDawn/DesignPatternsPresentation/blob/master/EjemploInterpreter.rb" target="_blank">
-    📂 Ver código en Ruby
-  </a>
-
-  <a href="https://www.tutorialspoint.com/code/FNCjElGZ" target="_blank">
-    ▶️ Ejecutar código
-  </a>
+    <a href="https://www.tutorialspoint.com/code/FNCjElGZ" target="_blank">
+      ▶️ Ejecutar código
+    </a>
+  </div>
 
 </body>
 </html>
