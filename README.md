@@ -15,6 +15,34 @@ Ejemplos en Ruby que demuestran patrones de diseño: Interpreter y State.
 **Requisitos**
 - Ruby: >= 2.7
 
+**Instalación de Ruby**
+- Windows (RubyInstaller): descarga e instala desde https://rubyinstaller.org y sigue las instrucciones del instalador. Después abre PowerShell y verifica la instalación:
+
+```powershell
+ruby -v
+```
+
+- macOS (Homebrew):
+
+```bash
+brew install ruby
+```
+
+- Linux (Debian/Ubuntu):
+
+```bash
+sudo apt update
+sudo apt install ruby-full
+```
+
+- Alternativa (todas las plataformas): usa `rbenv` o `rvm` si necesitas gestionar varias versiones de Ruby.
+
+Después de instalar, verifica con:
+
+```bash
+ruby -v
+```
+
 **Dependencias**
 - Ninguna (no requiere gems externos). Basta con tener Ruby instalado.
 
