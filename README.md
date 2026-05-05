@@ -1,4 +1,4 @@
-# DesignPatternsPresentation
+# Patrones de Diseño Interpreter y State
 
 Ejemplos en Ruby que demuestran patrones de diseño: Interpreter y State.
 

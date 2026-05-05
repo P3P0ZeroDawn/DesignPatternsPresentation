@@ -1,4 +1,4 @@
-class Context
+class Estudiante
     def initialize(datos)
         @datos = datos
     end
@@ -58,7 +58,7 @@ class AndExpression < Expression
 end
 
 #Contexto 1
-estudiante1 = Context.new({
+estudiante1 = Estudiante.new({
     porcientoAvanceCrediticio: 60,
     esRegular: true,
     inscritoEnServicioSocial: false,
